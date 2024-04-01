@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+}
+
+.logo {
+    background-color: rgb(44, 89, 137);
+}
+
+.header {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: rgb(95, 95, 212);
+    align-items: center;
+}
+
+.header .menu {
+    display: flex;
+    list-style: none;
+}
+
+.header .menu li {
+    padding: 40px 40px;
+    border-right: 1px solid #fff;
+}
+
+header .menu li:last-child {
+    border: none;
+}
+
+.wp-main {
+    display: flex;
+}
+
+.wp-main .content {
+    flex-basis: 50%;
+}
+
+.wp-main .slidebar {
+    flex-basis: 50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.content {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #4089c5;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+tr:nth-child() {
+    background-color: #f2f2f2;
+}
+
+tr:last-child button {
+    width: auto;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.hello{
+    border: #131212 solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    text-decoration: dashed #131212;
+    background: #3a7ba7;
+}
+.tab {
+    background-color: #7FB3D5; /* Màu xanh dương nhạt */
+    border-radius: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
